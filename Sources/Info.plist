@@ -25,10 +25,12 @@
     <key>UILaunchScreen</key>
     <dict/>
     <key>NSCameraUsageDescription</key>
-    <string>Камера для фото в чат</string>
+    <string>Камера для фото в чат Gemini</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>Микрофон для ввода голосом</string>
+    <string>Микрофон для голосового ввода</string>
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>Доступ к фото</string>
+    <string>Доступ к галерее для прикрепления картинок</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Сохранение сгенерированных изображений</string>
 </dict>
 </plist>
