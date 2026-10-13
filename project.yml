@@ -1,0 +1,15 @@
+name: Gemini
+options:
+  bundleIdPrefix: com.wrapper
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  Gemini:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.wrapper.gemini
+      GENERATE_INFOPLIST_FILE: false
+      INFOPLIST_FILE: Sources/Info.plist
